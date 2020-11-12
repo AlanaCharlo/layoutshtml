@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 1500px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+nav {
+    width: 1500px;
+    height: 200px;
+    background-color: burlywood;
+}
+
+header {
+    width: 1500px;
+    height: 520px;
+    background-color: darkcyan;
+}
+
+article {
+    width: 750px;
+    height: 950px;
+}
+
+section {
+    width: 1500px;
+    height: 920px;
+    background-color: hotpink;
+}
+
+div {
+    width: 375px;
+    height: 375px;
+}
+
+#um {
+    background-color: darkolivegreen;
+}
+
+#dois {
+    background-color: darkviolet;
+}
+
+#div1 {
+    background-color: indianred;
+}
+
+#div2 {
+    background-color: lawngreen;
+}
+
+#div3 {
+    background-color: lightseagreen;
+}
+
+#div4 {
+    background-color: mediumblue;
+}
+
+footer {
+    width: 1500px;
+    height: 100px;
+    background-color: navy;
+}

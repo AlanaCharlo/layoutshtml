@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 1200px;
+    height: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+aside{
+    width: 400px;
+    height: 1500px;
+    background-color: aquamarine;
+}
+
+#coluna{
+    width: 800px;
+    height: 1500px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#um{
+    width: 800px;
+    height: 250px;
+    background-color: cornflowerblue;
+    margin-bottom: 30px;
+}
+
+.dois{
+    width: 800px;
+    height: 150px;
+    background-color: darkblue;
+    margin-bottom: 20px;
+}
+
+#tres{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin-top: 30px;
+}
+
+article{
+    width: 340px;
+    height: 285px;
+    background-color: darkgreen;
+}
+
